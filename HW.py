@@ -3,6 +3,7 @@ print('''
 		2. Домашнее Задание №2
 		3. Калькулятор''')
 HomeWork = input('>>>')
+pass
 #-----------------------------------#
 if HomeWork == '1':
 	print(''' 
@@ -168,7 +169,8 @@ if HomeWork == '3':
 		elif operation == '3' :
 			x3 = float(input('Введите число '))
 			y3 = float(input('Укажите степень '))
-			print(round(x3 ** y3))
+			print(x3 ** y3)
 		else : 
 				print('Оно тебе не надо')
 #-----------------------------------#
+
